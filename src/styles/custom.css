@@ -1,0 +1,16 @@
+.hero-img {
+  height: 380px;
+  object-fit: cover;
+}
+
+.product-card .card-img-top {
+  transition: transform .25s ease;
+}
+.product-card:hover .card-img-top {
+  transform: scale(1.03);
+}
+
+/* responsive tweaks */
+@media (max-width: 576px) {
+  .hero-img { height: 220px; }
+}
